@@ -1,0 +1,41 @@
+/* h2{color: orange;}
+label{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+textarea {background-color: aqua;}
+input{background-color: azure;}
+.boton{background-color: bisque;} */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;1,500&family=PT+Sans:ital,wght@0,700;1,700&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'PT Sans', sans-serif; */
+/* .parrafo{
+    color: #0033ff;
+    font-family: 'Kanit', sans-serif;
+    line-height: 15px;
+    font-size: 12px;
+} */
+ul{
+    list-style: none;
+    font-size: 0%;
+    border: solid 5px rgb(82, 40, 40);
+}
+li{ 
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    font-size: 15px;
+}
+ul ul{  
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display: block;
+}
+ul li:hover ul{
+    display: block;
+}
+ol dl{
+    display: block;
+}
+ul li a{
+    text-decoration: none;
+}
