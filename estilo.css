@@ -11,3 +11,6 @@ section{
     height: 50vh;
     background-color: black;
 }
+p {
+    font-size: 20px;
+}
