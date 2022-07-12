@@ -13,4 +13,11 @@ input{background-color: azure;}
 section{
     width: 100%;
     height: 50vh;
+<<<<<<< HEAD
+=======
+    background-color: black;
+}
+p {
+    font-size: 20px;
+>>>>>>> jpalesta
 }
